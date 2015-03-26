@@ -10,4 +10,4 @@ Installs WP CLI.
 
     - hosts: webservers
       roles:
-    - { role: geerlingguy.php-xdebug }
+    - { role: mglaman.wp-cli }
