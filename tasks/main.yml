@@ -1,0 +1,6 @@
+---
+- name: Install WP-CLI
+  command: >
+    curl -O {{ phar_url }}
+    chmod +x wp-cli.phar
+    mv wp-cli.phar {{ bin_path }}
